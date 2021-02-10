@@ -40,6 +40,13 @@ img {vertical-align: middle;}
    
   }
 
+  @media only screen and
+   (max-width:500px){
+     .brand-title p{
+      font-size: 25px;
+     }
+   }
+
 
 
 
