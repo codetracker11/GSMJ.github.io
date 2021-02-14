@@ -267,5 +267,17 @@ pre{
 
 
 }
+
+@media only screen and (max-width:350px)
+{
+  .account{
+    padding:15px;
+     }
+  pre{
+    font-size: 15px;
+  }
+
+
+}
   
   
