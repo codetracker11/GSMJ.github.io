@@ -59,10 +59,7 @@ img {vertical-align: middle;}
     .account{
       padding: 10px;
     }
-    pre{
-      font-size: 18px;
-    }
-   
+      
    }
 
 
@@ -247,7 +244,7 @@ img {vertical-align: middle;}
 
 .account{
   display: block;
-  margin:auto;
+  margin:0 auto;
   border:10px solid orangered;
   width: fit-content;
   padding: 20px;
@@ -259,5 +256,16 @@ pre{
   text-align: center;
 }
 
+@media only screen and (max-width:500px)
+{
+  .account{
+    padding:15px;
+     }
+  pre{
+    font-size: 17px;
+  }
+
+
+}
   
   
